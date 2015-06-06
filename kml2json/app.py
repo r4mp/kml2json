@@ -18,11 +18,6 @@ class Helper(object):
         return ExtendedData_Data_value_type.text
 
 
-class MyDict(dict):
-    def __str__(self):
-        return json.dumps(self)
-
-
 class Section(Helper):
     def __init__(self, title):
         self.title = title
